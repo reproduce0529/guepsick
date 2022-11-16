@@ -1,0 +1,100 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { 
+font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+
+}
+
+body{
+    background-repeat: no-repeat;
+    background: rgb(206,221,238);
+background: linear-gradient(90deg, rgba(206,221,238,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.header{
+    text-align: center;
+
+}
+.header p{
+    font-size: 1.5em;
+}
+
+.form{
+  text-align: center;  
+}
+
+.nal{
+    text-align: center;
+}
+
+select{
+    border: none;
+    width: 90px;
+    margin-top: 40px;
+}
+
+input{
+    margin-top: 40px;
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 0.5px solid white;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+input:hover{
+    background-color: white;
+    color: black;
+}
+
+.box{
+ text-align: center;   
+ 
+
+}
+
+.box p{
+    font-size: 20px;
+}
+.menu_box{
+    max-width: 1000px;
+    background-color: white;
+    width: 60%;
+    font-size: 20px;
+    margin: auto;
+    height: 350px;
+    border-radius: 25px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    line-height: 33px;
+    font-family: S-CoreDream-3Light;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 0.5px solid white;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    margin-top: 130px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+a{
+    text-decoration: none;
+}
