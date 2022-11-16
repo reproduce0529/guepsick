@@ -7,15 +7,28 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 * { 
 font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-
+margin : 0;
+padding: 0;
 }
 
 body{
     background-repeat: no-repeat;
-    background: rgb(206,221,238);
-background: linear-gradient(90deg, rgba(206,221,238,1) 0%, rgba(148,187,233,1) 100%);
+    background-color: #BEEAF1;
 }
 
 .header{
@@ -36,24 +49,40 @@ background: linear-gradient(90deg, rgba(206,221,238,1) 0%, rgba(148,187,233,1) 1
 
 select{
     border: none;
-    width: 90px;
+    margin: auto;
+    width: 120px;
+    height : 40px;
     margin-top: 40px;
+    display: block;
+    background-color: #75CFF2;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-size: 1.05rem;
+    font-family: Pretendard-Regular;
 }
 
 input{
+    margin: auto;
     margin-top: 40px;
-    width: 100px;
-    height: 35px;
-    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    background-color: #C0B1E5;
     border-radius: 12px;
-    border: 0.5px solid white;
+    border: 0.5px solid #C0B1E5;
     color: white;
+    display: block;
     transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    
 }
 
 input:hover{
     background-color: white;
-    color: black;
+    border-color: white;
+    color: #C0B1E5;
 }
 
 .box{
@@ -97,4 +126,24 @@ button:hover{
 
 a{
     text-decoration: none;
+}
+.content{
+    display: block;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 48px;
+    
+}
+
+h2{
+ font-family: GmarketSansMedium;
+ font-size: 2rem;
+ margin-top: 20px;
+}
+.Pre{
+    font-family: Pretendard-Regular;
+    color: #888;
+    margin-top: 12px;
+    margin-bottom: 4px;
 }

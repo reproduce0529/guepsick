@@ -9,13 +9,13 @@
 </head>
 <body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
     <header class="header">
-        <p>경북소프트웨어고등학교</p>    
-        <p>급식충(忠)</p>
+        <h2>경북소프트웨어고등학교</h2>    
+        <h2>급식</h2>
 
     </header>
 
     <div class="nal ">
-        <p>오늘 날짜</p>
+        <p class="Pre">TODAY</p>
         <?php 
             $dateString = date("m 월 d 일", time()); 
             $dateMonth = date("m", time());
@@ -23,7 +23,7 @@
             echo $dateString;
         ?>
     </div>
-        
+
     
     <section class="content">
         <form action="../php/show.php" method="get" class="form">
